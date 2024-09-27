@@ -7,7 +7,12 @@ li, a{
   display: flex;
   justify-content: space-between;
 }
-.header-links, .header-logo {
+.header-logo {
+  padding: 8px;
+  margin: 0;
+  gap: 16px; 
+}
+.header-links {
   padding: 8px;
   margin: 0;
   display: flex;
