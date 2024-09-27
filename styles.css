@@ -52,6 +52,14 @@ li, a{
   height: 180px;
   width: 340px;
 }
+.sign-up1 button {
+  background: rgb(158, 55, 253) !important;
+  border: none !important;
+}
+.sign-up1 button:hover {
+  background-color: rgb(134, 54, 214) !important;
+  transition: 0.15s;
+}
 
 
 
@@ -140,7 +148,7 @@ li, a{
   align-self: center;
   padding-right: 100px;
 }
-.sign-up4 button {
+.sign-up4 button, .sign-up1 button {
   text-align: center;
   background: lightseagreen;
   color: white;
@@ -152,6 +160,7 @@ li, a{
 }
 .sign-up4 button:hover {
   background: rgb(29, 163, 157);
+  transition: 0.15s;
 }
 
 .footer {
