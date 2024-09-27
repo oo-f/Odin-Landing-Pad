@@ -3,12 +3,12 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  /* height: 600px; */
+  height: auto;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  background: #0d1a08cb;
+  background: rgb(108, 108, 253, 0.651);
   height: 58px;
   padding: 0;
   margin: 0;
@@ -152,4 +152,14 @@ li, a{
 }
 .sign-up4 button:hover {
   background: rgb(29, 163, 157);
+}
+
+.footer {
+  display: flex;
+  height: 38px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: rgba(108, 108, 253, 0.651);
+  color: #ffffff;
 }
