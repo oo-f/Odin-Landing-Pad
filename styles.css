@@ -8,7 +8,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  background: #cacaca;
+  background: #0d1a08cb;
   height: 58px;
   padding: 0;
   margin: 0;
@@ -16,7 +16,8 @@ body {
 .header-logo, .header-links {
   padding: 16px;
   margin: 0;
-  gap: 16px; 
+  gap: 16px;
+  color: #ffffff; 
 }
 .left-header, .right-header, .header-links {
   display: flex;
@@ -27,6 +28,7 @@ body {
 li, a{
   list-style: none;
   text-decoration: none;
+  color: #ffffff;
 }
 
 
@@ -37,7 +39,8 @@ li, a{
   align-items: center;
   gap: 140px;
   height: 300px;
-  padding: 0;
+  padding: 40px;
+  padding-top: 0;
   background: #cacaca;
 }
 .text1 {
@@ -57,7 +60,11 @@ li, a{
 .body2 {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  height: 100px;
+  border-color: black;
+  border-style: solid;
+  background: #d4d4d4;
+  padding-bottom: 40px;
   margin: 0;
 }
 .title2 {
@@ -79,4 +86,26 @@ li, a{
   width: 141px;
   color: #00f;
   text-align: center;
+}
+
+
+.body3 {
+  display: flex;
+  justify-content: center;
+  background: rgb(235, 234, 234);
+  padding: 50px 0px 50px;
+  margin: 50px 0 0 0;
+}
+.container3 {
+  text-align: center;
+
+}
+.text3 {
+  width: 600px;
+  text-align: start;
+  font-style: italic;
+}
+.text3-credit {
+  text-align: right;
+  padding-right: 120px;
 }
